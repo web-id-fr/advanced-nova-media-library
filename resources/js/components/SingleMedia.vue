@@ -50,7 +50,7 @@
     }),
     computed: {
       downloadUrl() {
-        return this.image.id ? `/nova-vendor/ebess/advanced-nova-media-library/download/${this.image.id}` : null;
+        return this.image.id ? `/nova-vendor/web-id/advanced-nova-media-library/download/${this.image.id}` : null;
       },
       croppable() {
         return this.editable &&

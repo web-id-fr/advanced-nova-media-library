@@ -1,5 +1,5 @@
 {
-    "name": "ebess/advanced-nova-media-library",
+    "name": "web-id/advanced-nova-media-library",
     "description": "Laravel Nova tools for managing the Spatie media library.",
     "keywords": [
         "laravel",
@@ -14,13 +14,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Ebess\\AdvancedNovaMediaLibrary\\": "src/"
+            "WebId\\AdvancedNovaMediaLibrary\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Ebess\\AdvancedNovaMediaLibrary\\AdvancedNovaMediaLibraryServiceProvider"
+                "WebId\\AdvancedNovaMediaLibrary\\AdvancedNovaMediaLibraryServiceProvider"
             ]
         }
     },
